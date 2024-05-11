@@ -1,6 +1,6 @@
 Hola a todos y bienvenidos, este va a ser mi primer WriteUp así que tampoco prometo que vaya a ser una maravilla, pero se intentará xD
 
-En este caso voy a estar haciendo una de las máquinas de la plataforma creada por un querido miembro de la comunidad, Mario de El Pingüino de Mario, echad todos un ojo a sus redes sociales, seguro que no os defraudará.
+En este caso voy a estar haciendo una de las máquinas de la plataforma creada por un querido miembro de la comunidad, Mario de [El Pingüino de Mario](https://www.youtube.com/@ElPinguinoDeMario), echad todos un ojo a sus redes sociales, seguro que no os defraudará.
 
 La máquina en cuestión se llama Trust y es una de las más sencillas de la plataforma.
 
