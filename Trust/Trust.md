@@ -88,7 +88,7 @@ Usaremos el siguiente comando y conseguiremos escalar nuestros privilegios y con
 
 ![alt text](images/image-17.png)
 
-Espero que os haya gustado, y nos veremos en la próxima. Agradecer a Mario por haber hecho esta plataforma y estas máquinas que son muy instructivas y seguiremos haciendo hasta completar todas. Un besito a todos <3
+Espero que os haya gustado, y nos veremos en la próxima. Agradecer a Mario por haber hecho esta plataforma y estas máquinas que son muy instructivas, seguiremos haciendo hasta completar todas. Un besito a todos <3
 
 
 
