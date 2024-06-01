@@ -1,6 +1,6 @@
 > **Hi, english below!**
 
-Hola otra vez, vamos a resolver otra máquina de Dockerlabs, en este caso la máquina se llama Injection y sigue siendo una de la categoría más fácil de Dockerlabs de El Pingüino de Mario. 
+Hola otra vez, vamos a resolver otra máquina de [Dockerlabs](https://dockerlabs.es/#/), en este caso la máquina se llama Injection y sigue siendo una de la categoría más fácil de Dockerlabs de [El Pingüino de Mario](https://www.youtube.com/channel/UCGLfzfKRUsV6BzkrF1kJGsg). 
 Sin más que añadir vamos a ello, como siempre empezaremos por descargar la máquina y realizar su instalación, recordad que funcionan mediante docker por lo que estaremos creando un contenedor en nuestra máquina local en el que se almacenará la máquina víctima.
 
 
@@ -88,7 +88,7 @@ Vaya, parece que el comando sudo no está disponible. Tendremos que buscar otra 
 ![alt text](images/image-10.png)
 
 
-Si nos fijamos bien vemos que el binario env tiene permisos SUID, así que iremos a GTFObins para ver si gracias a este binario podemos convertirnos en usuario privilegiado. Y efectivamente, podemos utilizar este binario para convertirnos en usuario root, por lo que vamos a hacerlo.
+Si nos fijamos bien vemos que el binario env tiene permisos SUID, así que iremos a [GTFObins](https://gtfobins.github.io/) para ver si gracias a este binario podemos convertirnos en usuario privilegiado. Y efectivamente, podemos utilizar este binario para convertirnos en usuario root, por lo que vamos a hacerlo.
 
 
 ![alt text](images/image-11.png)
@@ -104,7 +104,7 @@ Somos root y tenemos control total sobre la máquina, por lo que nuestro trabajo
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-Hello again, let's solve another Dockerlabs machine. In this case, the machine is called Injection and it remains one of the easiest Dockerlabs machines from Mario's Penguin. Without further ado, let's get to it. As always, we'll start by downloading the machine and installing it. Remember that they operate via Docker, so we will be creating a container on our local machine where the victim machine will be stored.
+Hello again, let's solve another [Dockerlabs](https://dockerlabs.es/#/) machine. In this case, the machine is called Injection and it remains one of the easiest Dockerlabs machines from [El Pingüino de Mario](https://www.youtube.com/channel/UCGLfzfKRUsV6BzkrF1kJGsg). Without further ado, let's get to it. As always, we'll start by downloading the machine and installing it. Remember that they operate via Docker, so we will be creating a container on our local machine where the victim machine will be stored.
 
 
 ![alt text](images/imagen.png)
@@ -192,7 +192,7 @@ Oops, it seems the sudo command is not available. We'll have to find another way
 ![alt text](images/image-10.png)
 
 
-If we look closely, we see that the env binary has SUID permissions. So, we'll go to GTFObins to see if we can use this binary to become a privileged user. And indeed, we can use this binary to become root, so let's do it.
+If we look closely, we see that the env binary has SUID permissions. So, we'll go to [GTFObins](https://gtfobins.github.io/) to see if we can use this binary to become a privileged user. And indeed, we can use this binary to become root, so let's do it.
 
 
 ![alt text](images/image-11.png)
