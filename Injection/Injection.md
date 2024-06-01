@@ -1,10 +1,13 @@
-# Hi, english below
+> **Hi, english below!**
 
 Hola otra vez, vamos a resolver otra máquina de Dockerlabs, en este caso la máquina se llama Injection y sigue siendo una de la categoría más fácil de Dockerlabs de El Pingüino de Mario. 
 Sin más que añadir vamos a ello, como siempre empezaremos por descargar la máquina y realizar su instalación, recordad que funcionan mediante docker por lo que estaremos creando un contenedor en nuestra máquina local en el que se almacenará la máquina víctima.
 
 
 ![alt text](images/imagen.png)
+
+
+# Enumeración
 
 
 Como siempre empezaremos realizando un ping a la máquina víctima para verificar que la misma se encuentra activa, una vez hecho esto, procederemos a realizar un escaneo básico de puertos para ver qué servicios están corriendo en la máquina.
@@ -47,6 +50,9 @@ Tampoco parece que haya nada interesante, por lo que vamos a probar alguna cosa 
 ![alt text](images/image-4.png)
 
 
+# Explotación
+
+
 Parece que podríamos utilizar este vector para lograr bypassear este panel de login y acceder al sistema. Al probar con el clásico payload de SQL Injection conseguimos saltarnos este login y podemos acceder como si fuésemos un usuario legítimo.
 
 ``` admin' or 1=1 -- - ```
@@ -64,6 +70,9 @@ Con esta sintaxis en concreto lo que conseguimos es añadir una condición que i
 
 
 ![alt text](images/image-8.png)
+
+
+# Post-Explotación
 
 
 Una vez dentro de la máquina lo que nos queda es elevar nuestros privilegios para convertirnos en el usuario root y tener el control total de la misma. Para conseguir esto, y teniendo en cuenta que tenemos la contraseña, lo primero sería utilizar el comando ``` sudo -l ``` para ver si somos capaces de utilizar algún comando con permisos de usuario root.
@@ -91,4 +100,7 @@ Si nos fijamos bien vemos que el binario env tiene permisos SUID, así que iremo
 ![alt text](images/image-12.png)
 
 Somos root y tenemos control total sobre la máquina, por lo que nuestro trabajo ha terminado. Muchas gracias por leer y espero que os hay gustado, ¡nos vemos en la siguiente! :)
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
 
