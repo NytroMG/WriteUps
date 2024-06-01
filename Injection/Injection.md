@@ -41,7 +41,7 @@ Nos encontramos ante un panel de login, vamos a ver el código fuente a ver si e
 ![alt text](images/image-3.png)
 
 
-Tampoco parece que haya nada interesante, por lo que vamos a probar alguna cosa para poder saltarnos este login. Probamos con admin:admin pero no funciona. Al añadir una comilla después de admin la cosa cambia y vemos un error que nos indica un error en la sintaxis de SQL como podemos ver en la images/imagen.
+Tampoco parece que haya nada interesante, por lo que vamos a probar alguna cosa para poder saltarnos este login. Probamos con admin:admin pero no funciona. Al añadir una comilla después de admin la cosa cambia y vemos un error que nos indica un error en la sintaxis de SQL como podemos ver en la imagen.
 
 
 ![alt text](images/image-4.png)
