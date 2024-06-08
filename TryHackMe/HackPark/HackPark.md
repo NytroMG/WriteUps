@@ -45,7 +45,7 @@ Podemos ver alguna información sobre el nombre de la máquina y alguna versión
 ![alt text](images/image-5.png)
 
 
-Vemos un blog en el que aparece la images/imagen de un payaso conocido por la antigua serie de It, basada en los relatos del gran Stephen King. En una de las preguntas que TryHackMe nos hace nos pide el nombre del payaso que aparece en la web. Para conseguirlo simplemente tendremos que hacer una investigación en internet o utilizar la búsqueda inversa de imágenes.
+Vemos un blog en el que aparece la imagen de un payaso conocido por la antigua serie de It, basada en los relatos del gran Stephen King. En una de las preguntas que TryHackMe nos hace nos pide el nombre del payaso que aparece en la web. Para conseguirlo simplemente tendremos que hacer una investigación en internet o utilizar la búsqueda inversa de imágenes.
 
 
 ![alt text](images/image-6.png)
