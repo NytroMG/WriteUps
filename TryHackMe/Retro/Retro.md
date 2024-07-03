@@ -3,7 +3,7 @@ Hola de nuevo y gracias por leerme. Hoy resolveremos una máquina de TryHackMe l
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-Como siempre empezaremos conectando nuestra máquina atacante a la VPN de TryHackMe e iniciando la máquina, lo cual no debería llevarnos más de 2 minutos, una vez hecho esto estamos listos para comenzar nuestra aventura. En este caso simularemos un ejercicio real de pentesting de Caja Negra en el que no tendremos información previa sobre el sistema.
+Como siempre empezaremos conectando nuestra máquina atacante a la VPN de TryHackMe e iniciando la máquina, lo cual no debería llevarnos más de 2 minutos, una vez hecho esto estamos listos para comenzar nuestra aventura.
 
 ![alt text](images/image.png)
 
