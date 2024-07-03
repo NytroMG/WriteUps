@@ -150,7 +150,7 @@ Recibimos nuestra conexión y verificamos nuestro usuario.
 
 ![alt text](images/image-35.png)
 
-Espero que os haya gustado tanto como a mí y espero veros en la siguiente :)
+Espero que os haya gustado tanto como a mí y espero veros en la siguiente. :)
 
 
 
