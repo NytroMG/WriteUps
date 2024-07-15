@@ -86,5 +86,5 @@ Vaya, parece que el secreto que se mencionada era ni más ni menos que la contra
 
 ![alt text](images/image-18.png)
 
-¡Bien! Funciona a la perfección y nos comvertimos en el usuario root obteniendo el control total sobre el sistema y pudiendo dar por concluida esta máquina, espero que os haya gustado mucho y nos vemos en la siguiente. :)
+¡Bien! Funciona a la perfección y nos convertimos en el usuario root obteniendo el control total sobre el sistema y pudiendo dar por concluida esta máquina, espero que os haya gustado mucho y nos vemos en la siguiente. :)
 
