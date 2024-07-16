@@ -23,7 +23,7 @@ Lo primero que haremos para enumerar esta máquina será realizar un escaneo bá
 
 ![alt text](images/image-3.png)
 
-Vemos que únicamente tenemos disponible el puerto 80, de cualquier forma vamos a lanzar un escaeno más exhaustivo para tratar de enumerar versiones de servicios así como lanzar unos scripts básicos de reconocimiento.
+Vemos que únicamente tenemos disponible el puerto 80, de cualquier forma vamos a lanzar un escaneo más exhaustivo para tratar de enumerar versiones de servicios así como lanzar unos scripts básicos de reconocimiento.
 
 ```sudo nmap -p 80 -sCV 172.17.0.2 -Pn -n -oN escaneoSC```
 
