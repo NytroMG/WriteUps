@@ -99,27 +99,13 @@ Vemos que el usuario pinguinito puede ejecutar un script en concreto con sudo im
 
 ![alt text](images/image-21.png)
 
-El script como tal no va a permitir que seamos capaces de elevar nuestros privilegios pero investigando vemos que tenemos permisos de escritura dentro del directorio /opt por lo que simplemente tendremos que reemplazar el script por uno malicioso que haga lo que nosotros queramos y ejecutarlo como sudo ya que tendremos privilegios elevados para hacer cualquier cosa, en mi caso trataré de otorgarle los permisos SUID al binario bash, vamos a ello.
-
-![alt text](images/image-22.png)
-
-![alt text](images/image-23.png)
-
-![alt text](images/image-24.png)
-
-![alt text](images/image-25.png)
-
-![alt text](images/image-26.png)
-
-Tenemos nuestro script malicioso listo para entrar en acción, vamos a ejecutarlo como sudo dentro de la máquina víctima.
-
-![alt text](images/image-27.png)
-
-Parece que no está funcionando correctamente, no hay problema, cambiaremos el script para que ejecute una shell directamente.
+El script como tal no va a permitir que seamos capaces de elevar nuestros privilegios pero investigando vemos que tenemos permisos de escritura dentro del directorio /opt por lo que simplemente tendremos que reemplazar el script por uno malicioso que haga lo que nosotros queramos y ejecutarlo como sudo ya que tendremos privilegios elevados para hacer cualquier cosa, en mi caso trataré de ejecutar una shell como root, vamos a ello.
 
 ![alt text](images/image-28.png)
 
 ![alt text](images/image-29.png)
+
+Tenemos nuestro script malicioso listo para entrar en acción, vamos a ejecutarlo como sudo dentro de la máquina víctima.
 
 ![alt text](images/image-30.png)
 
