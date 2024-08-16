@@ -23,7 +23,7 @@ Lo primero que haremos para enumerar esta máquina será realizar un escaneo bá
 
 ![alt text](images/image-3.png)
 
-Identificamos que los puertos 22 y 80 est-an abiertos, vamos a realizar un escaneo más exhaustivo para tratar de enumerar versiones así como para lanzar ciertos scripts básicos de reconocimiento.
+Identificamos que los puertos 22 y 80 están abiertos, vamos a realizar un escaneo más exhaustivo para tratar de enumerar versiones así como para lanzar ciertos scripts básicos de reconocimiento.
 
 ``sudo nmap -p 22,80 --min-rate 5000 -sCV 172.17.0.2 -Pn -n -oN escaneoSC``
 
